@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+body {
+  background: #0f0f10;
+  color: #fff;
+}
+
+input,
+textarea {
+  color: #a9a9a9;
+}
+
+select option {
+  color: rgb(156, 154, 154);
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #1a1a1a inset !important; 
+  -webkit-text-fill-color: #ffffff !important; 
+  border: 2px solid gray  !important; 
+}
